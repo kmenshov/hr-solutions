@@ -18,5 +18,8 @@ module.exports = {
   rules: {
     'no-console': ['off'],
     'no-plusplus': ['off'],
+    'one-var': ['off'],
+    'one-var-declaration-per-line': ['off'],
+    'prefer-destructuring': ['off'],
   },
 };
