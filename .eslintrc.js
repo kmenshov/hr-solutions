@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
+    'no-console': ['off'],
     'no-plusplus': ['off'],
   },
 };
