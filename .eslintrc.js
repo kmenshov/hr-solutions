@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
+    'max-len': ['error', { code: 120 }],
     'newline-per-chained-call': ['off'],
     'no-console': ['off'],
     'no-plusplus': ['off'],
