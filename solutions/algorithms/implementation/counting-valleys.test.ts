@@ -14,7 +14,7 @@ test.skip('comparing the implementations speeds', () => {
   const repeats = 10_000_000;
   const sources = [
     'UDDDUDUU',
-    'DDUUDDUDUUUD'
+    'DDUUDDUDUUUD',
   ];
   const expectations = [1, 2];
   let results: number[] = [];

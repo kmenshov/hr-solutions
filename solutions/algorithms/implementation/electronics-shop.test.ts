@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { main } from './electronics-shop';
 
 test('the main implementation', () => {

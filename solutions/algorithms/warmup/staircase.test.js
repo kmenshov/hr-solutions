@@ -9,5 +9,7 @@ test('prints the staircase', () => {
 
   console.log.mockClear();
   sc(7);
-  expect(console.log.mock.calls.flat()).toEqual(['      #', '     ##', '    ###', '   ####', '  #####', ' ######', '#######']);
+  expect(console.log.mock.calls.flat()).toEqual(
+    ['      #', '     ##', '    ###', '   ####', '  #####', ' ######', '#######'],
+  );
 });
